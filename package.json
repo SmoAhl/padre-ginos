@@ -1,0 +1,38 @@
+{
+  "name": "react-project",
+  "version": "1.0.0",
+  "description": "This is a companion repository for the [Complete Intro to React, v9][fem] course on Frontend Masters. [![Frontend Masters](https://static.frontendmasters.com/assets/brand/logos/full.png)][fem]",
+  "homepage": "https://github.com/SmoAhl/React-project#readme",
+  "bugs": {
+    "url": "https://github.com/SmoAhl/React-project/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SmoAhl/React-project.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "preview": "vite preview",
+    "format": "prettier --write \"src/**/*.{js,jsx, css, html}\"",
+    "lint": "eslint",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "eslint": "^9.9.1",
+    "eslint-config-prettier": "^9.1.0",
+    "globals": "^15.9.0",
+    "prettier": "^3.6.2",
+    "vite": "^5.4.2"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
